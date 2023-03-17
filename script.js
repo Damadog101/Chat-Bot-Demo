@@ -56,15 +56,15 @@ submit.addEventListener("click", () => {
                 output.appendChild(botText)
                 break
             case 7:
-                botText.innerHTML = "Bot: TBA"
+                botText.innerHTML = "Bot: aw hail naw"
                 output.appendChild(botText)
                 break
             case 8:
-                botText.innerHTML = "Bot: TBA"
+                botText.innerHTML = "Bot: I am 100 meters from your location amd approaching rapidly. Start Running"
                 output.appendChild(botText)
                 break
             case 9:
-                botText.innerHTML = "Bot: TBA"
+                botText.innerHTML = "Bot: tomato"
                 output.appendChild(botText)
                 break
         }
