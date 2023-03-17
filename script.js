@@ -27,7 +27,10 @@ submit.addEventListener("click", () => {
     } else if (inputValue == "death") {
         botText.innerHTML = "Bot: Yours will be soon"
         output.appendChild(botText)
-    } else {
+    } else if (inputValue == "you bad") {
+botText.innerHTML = "Bot: So are you!"
+output.appendChild(botText)
+} else {
         let num = Math.ceil(Math.random() * 9)
 
         switch(num) {
