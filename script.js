@@ -25,10 +25,14 @@ submit.addEventListener("click", () => {
         botText.innerHTML = "Bot: "
         output.appendChild(botText)
         output.appendChild(potatoImg)
-     //else if () {
-
-    // } else {
-
+    } else if (inputValue == "death") {
+        let botText = document.createElement("p")
+        botText.innerHTML = "Bot: Yours will be soon"
+        output.appendChild(botText)
+    } else {
+        let botText = document.createElement("p")
+        botText.innerHTML = "Bot: Hello! I am dumb."
+        output.appendChild(botText)
     }
 
 
