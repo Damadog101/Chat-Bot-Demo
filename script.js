@@ -31,7 +31,7 @@ submit.addEventListener("click", () => {
 botText.innerHTML = "Bot: So are you!"
 output.appendChild(botText)
 } else {
-        let num = Math.ceil(Math.random() * 9)
+        let num = Math.ceil(Math.random() * 9 )
 
         switch(num) {
             case 1:
@@ -58,20 +58,16 @@ output.appendChild(botText)
                 botText.innerHTML = "Bot: tomato"
                 output.appendChild(botText)
                 break
-
             case 7: 
                 botText.innerHTML = "Bot: ask again later"
                 break
-
             case 8: 
                 botText.innerHTML = "Bot: we'll see"
                 break
-
             case 9: 
                 botText.innerHTML = "Bot: god please no"
-                break        }
-
-
+                break     
+        }
     }
 
 
