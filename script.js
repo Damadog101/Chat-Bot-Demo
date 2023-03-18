@@ -31,7 +31,7 @@ submit.addEventListener("click", () => {
 botText.innerHTML = "Bot: So are you!"
 output.appendChild(botText)
 } else {
-        let num = Math.ceil(Math.random() * 9)
+        let num = Math.ceil(Math.random() * 12)
 
         switch(num) {
             case 1:
@@ -47,11 +47,11 @@ output.appendChild(botText)
                 output.appendChild(botText)
                 break
             case 4:
-                botText.innerHTML = "Bot: https://strategictictactoe.netlify.app/"
+                botText.innerHTML = "Bot: no"
                 output.appendChild(botText)
                 break
             case 5:
-                botText.innerHTML = "Bot: amongus"
+                botText.innerHTML = "Bot: yes"
                 output.appendChild(botText)
                 break
             case 6:
@@ -63,14 +63,25 @@ output.appendChild(botText)
                 output.appendChild(botText)
                 break
             case 8:
-                botText.innerHTML = "Bot: I am 100 meters from your location amd approaching rapidly. Start Running"
+                botText.innerHTML = "Bot: Maybe"
                 output.appendChild(botText)
                 break
             case 9:
                 botText.innerHTML = "Bot: tomato"
                 output.appendChild(botText)
                 break
-        }
+
+            case 10: 
+                botText.innerHTML = "Bot: ask again later"
+                break
+
+            case 11: 
+                botText.innerHTML = "Bot: we'll see"
+                break
+
+            case 12: 
+                botText.innerHTML = "Bot: god please no"
+                break        }
 
 
     }
