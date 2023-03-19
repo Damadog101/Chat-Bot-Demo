@@ -23,7 +23,10 @@ submit.addEventListener("click", () => {
 		botText.innerHTML = "Bot: ";
 		output.appendChild(botText);
 		output.appendChild(potatoImg);
-	} else if (inputValue == "death") {
+	} else if (inputValue == "I love you") {
+botText.innerHTML = "Bot: I love you too!";
+		output.appendChild(botText);
+} else if (inputValue == "death") {
 		botText.innerHTML = "Bot: Yours will be soon";
 		output.appendChild(botText);
 	} else if (inputValue == "you bad") {
