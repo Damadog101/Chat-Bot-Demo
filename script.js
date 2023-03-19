@@ -57,7 +57,7 @@ botText.innerHTML = "Bot: I love you too!";
 				output.appendChild(botText);
 				break;
 			case 6:
-				botText.innerHTML = "Bot: tomato";
+				botText.innerHTML = "Bot: shut up";
 				output.appendChild(botText);
 				break;
 			case 7:
